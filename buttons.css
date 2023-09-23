@@ -1,0 +1,40 @@
+
+  .submit {
+    align-items: center;
+    background: rgb(209, 196, 223);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    height: 60px;
+    justify-content: center;
+    position: absolute;
+    transition: background 300ms, opacity 500ms 800ms;
+    user-select: none;
+    width: 200px;
+  }
+  .submit:hover {
+    background: rgb(189, 171, 210) ;
+  }
+
+  path {
+    fill:rgb(189, 171, 210);
+    stroke:rgb(189, 171, 210);
+    transform-origin: 50%;
+    transition: transform 1200ms cubic-bezier(0.6, -0.48, 0.735, 0.045), fill 1200ms, stroke 1200ms;
+  }
+  .refresh {
+    bottom: 10px;
+    cursor: pointer;
+    font-weight: 400;
+    left: auto;
+    position: absolute;
+    right: 30px;
+    top: auto;
+    width: 50px;
+  }
+  

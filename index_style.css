@@ -1,0 +1,26 @@
+ @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+body {
+  background-color: rgb(244, 241, 247);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+.button {
+  height: 60px;
+  margin: 30px 0;
+  position: relative;
+  width: 200px;
+  }
+
+  svg {
+    left: -200px;
+    position: absolute;
+    top: -60px;
+    transform: scale(1);
+  }
